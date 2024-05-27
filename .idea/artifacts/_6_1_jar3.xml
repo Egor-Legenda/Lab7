@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="лаба 6.1:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/_6_1_jar3</output-path>
+    <root id="archive" name="лаба 6.1.jar">
+      <element id="module-output" name="common" />
+      <element id="module-output" name="server" />
+      <element id="module-output" name="client" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

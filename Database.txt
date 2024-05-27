@@ -1,0 +1,20 @@
+CREATE TABLE City (
+    id serial primary key,
+    name varchar(255) not null,
+    coordinates varchar(255) not null,
+    creationDate TIMESTAMP not null,
+    area float not null,
+    population bigint,
+    metersAboveSeaLevel real,
+    capital boolean not null,
+    populationDenasity real,
+    climate varchar(50) not null,
+    governor TIMESTAMP not null,
+    users_id INT REFERENCES users(id)
+);
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    salt VARCHAR(32) NOT NULL
+);
